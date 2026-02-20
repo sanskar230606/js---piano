@@ -10,19 +10,38 @@ html,body{
 body{
     cursor: pointer;
 }
-.div1{
-    height: 300px;
-    width: 200px;
-    background: crimson;
-    background-image: url(https://i.pinimg.com/736x/fb/b8/40/fbb840f6f112970c3fba7b780974a9c6.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.div2{
-    height: 300px;
-    width: 200px;
-    background: pink;
-    background-image: url(https://i.pinimg.com/736x/2f/71/ac/2f71ac6517a2e51bf52126660d2e9e55.jpg);
-    background-size: cover;
-    background-position: center;
+main{
+    height: 100%;
+    width:100%;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+
+
+    img{
+        height: 70px;
+        width: 70px;
+        position: fixed;
+        transform: translate(-50% , -50%) rotate(15deg);
+        
+    }
+    .coordinates{
+        width: 230px;
+        background-color: rgb(32, 228, 253);
+        border: none;
+        border-radius: 7px;
+        box-shadow: 0px 0px 30px rgb(202, 238, 37) ;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1{
+            text-align: center;
+            font-size: 20px;
+            white-space: nowrap;
+        }
+    }
 }
