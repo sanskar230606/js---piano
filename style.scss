@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    cursor: pointer;
+}
+.div1{
+    height: 300px;
+    width: 200px;
+    background: crimson;
+    background-image: url(https://i.pinimg.com/736x/fb/b8/40/fbb840f6f112970c3fba7b780974a9c6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div2{
+    height: 300px;
+    width: 200px;
+    background: pink;
+    background-image: url(https://i.pinimg.com/736x/2f/71/ac/2f71ac6517a2e51bf52126660d2e9e55.jpg);
+    background-size: cover;
+    background-position: center;
+}
